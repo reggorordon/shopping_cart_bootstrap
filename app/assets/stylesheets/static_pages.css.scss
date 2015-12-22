@@ -1,0 +1,40 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+	.ui-resizable-e {
+	cursor: ew-resize;
+	}
+	.ui-resizable-e:active {
+		background: #cecece;
+	}
+        
+#sketch {
+	border: 50px solid gray;
+	height: 750px;
+	position: relative;	
+}
+
+#tmp_canvas {
+	position: absolute;
+	left: 0px; right: 0;
+	bottom: 0; top: 0;
+	cursor: crosshair;
+	
+}
+
+.black, .white, .blue, .green, .yellow, .red, .purple
+{
+border-radius: 20px;
+width:40px;
+height:40px; 
+}	
+
+.black { background-color:#000000;  }
+.white { background-color:#FFFFFF; }
+.blue { background-color:#0000FF;  } 
+.green { background-color:#008000;  } 
+.yellow { background-color:#FFFF00;  }
+.red { background-color:#FF0000;  } 
+.purple { background-color:#800080; }
+
